@@ -1,0 +1,21 @@
+{
+  "name": "streamify",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "build": "npm install --prefix backend && npm install --prefix frontend && npm run build --prefix frontend",
+    "start": "npm run start --prefix backend"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "call": "^5.0.3",
+    "given": "^1.0.1",
+    "in": "^0.19.0",
+    "package": "^1.0.1",
+    "page": "^1.11.6",
+    "zustand": "^5.0.8"
+  }
+}
